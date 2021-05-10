@@ -1,0 +1,30 @@
+{
+  "name": "Example_PIT_2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "repository": "https://github.com/ruxxzebre/Example_PIT_2021",
+  "author": "ruxxzebre <gokeninoto@outlook.ua>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "parcel": "rm -rf dist .parcel-cache && parcel",
+    "start_html": "parcel ./HTML/index.html",
+    "start_js": "parcel ./JS/index.html",
+    "start_react": "parcel ./React/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.17.0",
+    "jest": "^26.6.3",
+    "parcel": "1.12.3"
+  },
+  "dependencies": {
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.6.6",
+    "json5": "^2.2.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
