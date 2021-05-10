@@ -63,7 +63,7 @@ const getSpan = (text, html = false) => {
 document.addEventListener('DOMContentLoaded', () => {
 	document.getElementsByTagName('body')[0].prepend(getSpan('Рекурсивний рендеринг на JS'));
   const container = document.getElementById('main');
-  const items = renderUser(data, null);
+  const items = renderUser(nestedData, null);
   [...items].forEach((node, idx) => container.appendChild(node));
 });
 

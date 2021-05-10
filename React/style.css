@@ -1,0 +1,24 @@
+.singlebox {
+  font-family: "Arial";
+  padding: 5px;
+  border: 1px black solid;
+  word-wrap: normal;
+}
+.singlebox-container {
+  margin: 15px;
+}
+.nestLevel_0_color {
+  background-color: rgba(255, 65, 54, 0.3);
+}
+.nestLevel_1_color {
+  background-color: rgba(57, 204, 204, 0.3);
+}
+.nestLevel_2_color {
+  background-color: rgba(1, 255, 112, 0.3);
+}
+.nestLevel_3_color {
+  background-color: rgba(255, 65, 54, 0.3);
+}
+.nestLevel_default_color {
+  background-color: rgba(255, 65, 54, 0.3);
+}
